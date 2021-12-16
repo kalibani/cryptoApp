@@ -1,23 +1,20 @@
 // Footer Component
 // --------------------------------------------------------
 
-import React from 'react';
-import PropTypes from 'prop-types';
-import './styles.scss';
+import React from "react";
+import PropTypes from "prop-types";
+// import './styles.scss';
 
 const Footer = ({ propsName }) => (
-  <div>
-    Functional Component (Stateless Component)
-  </div>
-
+  <div>Functional Component (Stateless Component)</div>
 );
 
 Footer.propTypes = {
-  propsName: PropTypes.string
+  propsName: PropTypes.string,
 };
 
 Footer.defaultProps = {
-  propsName: ''
+  propsName: "",
 };
 
 export default Footer;

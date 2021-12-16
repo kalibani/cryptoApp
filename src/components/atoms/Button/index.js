@@ -1,23 +1,20 @@
 // Button Component
 // --------------------------------------------------------
 
-import React from 'react';
-import PropTypes from 'prop-types';
-import './styles.scss';
+import React from "react";
+import PropTypes from "prop-types";
+// import './styles.scss';
 
 const Button = ({ propsName }) => (
-  <div>
-    Functional Component (Stateless Component)
-  </div>
-
+  <div>Functional Component (Stateless Component)</div>
 );
 
 Button.propTypes = {
-  propsName: PropTypes.string
+  propsName: PropTypes.string,
 };
 
 Button.defaultProps = {
-  propsName: ''
+  propsName: "",
 };
 
 export default Button;

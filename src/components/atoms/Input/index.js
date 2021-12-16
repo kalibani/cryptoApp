@@ -1,23 +1,20 @@
 // Input Component
 // --------------------------------------------------------
 
-import React from 'react';
-import PropTypes from 'prop-types';
-import './styles.scss';
+import React from "react";
+import PropTypes from "prop-types";
+// import './styles.scss';
 
 const Input = ({ propsName }) => (
-  <div>
-    Functional Component (Stateless Component)
-  </div>
-
+  <div>Functional Component (Stateless Component)</div>
 );
 
 Input.propTypes = {
-  propsName: PropTypes.string
+  propsName: PropTypes.string,
 };
 
 Input.defaultProps = {
-  propsName: ''
+  propsName: "",
 };
 
 export default Input;

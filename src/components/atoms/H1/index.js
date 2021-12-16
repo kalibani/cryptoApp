@@ -1,23 +1,20 @@
 // H1 Component
 // --------------------------------------------------------
 
-import React from 'react';
-import PropTypes from 'prop-types';
-import './styles.scss';
+import React from "react";
+import PropTypes from "prop-types";
+// import './styles.scss';
 
 const H1 = ({ propsName }) => (
-  <div>
-    Functional Component (Stateless Component)
-  </div>
-
+  <div>Functional Component (Stateless Component)</div>
 );
 
 H1.propTypes = {
-  propsName: PropTypes.string
+  propsName: PropTypes.string,
 };
 
 H1.defaultProps = {
-  propsName: ''
+  propsName: "",
 };
 
 export default H1;
